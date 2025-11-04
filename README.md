@@ -40,8 +40,25 @@
 
 ---
 
-## 🧩 시스템 구성도  
+## 👨‍💻 담당 역할 (My Role)  
+- 팀장으로서 프로젝트의 **전체 일정 및 진행 관리** 담당  
+- **YOLOv8 기반 객체 인식 모델** 구축 및 최적화 수행  
+- 인식된 객체의 위치 정보 기반 **드론 이동 제어 로직 설계 및 구현**  
+- 라즈베리 파이 ↔ Pixhawk 간 통신 및 명령 전달 기능 개발
 
+---
+  
+## 🧩 시스템 구성도  
+### 🔧 하드웨어 블록도  
+드론의 전체 구성 요소를 나타낸 블록도입니다.  
+![Hardware Block Diagram](./Image/HW.png)
+
+### 🔄 시스템 플로우 차트  
+데이터 흐름 구조를 나타낸 플로우 차트입니다.
+<p align="center">
+  <img src="./Image/FlowChart1.png" width="45%" style="margin-right:10px;" />
+  <img src="./Image/FlowChart2.png" width="45%" />
+</p>
 
 ---
 
@@ -49,6 +66,11 @@
 - YOLOv8 모델을 통해 사람을 실시간으로 인식 및 추적  
 - 인식된 객체 방향으로 자율 이동 및 정지 수행  
 - 안드로이드 앱을 통한 드론 호출 및 영상 확인 가능  
+
+<p align="center">
+  <img src="./Image/result1.png" width="45%" style="margin-right:10px;" />
+  <img src="./Image/result2.png" width="45%" />
+</p>
 
 ---
 
